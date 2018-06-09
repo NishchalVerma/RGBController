@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.nishchal.rgbcontroller.MainActivity">
+    <item
+        android:id="@+id/wifi_settings"
+        android:orderInCategory="100"
+        android:title="@string/setup_wifi"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/colorpicker_dialog"
+        android:orderInCategory="100"
+        android:title="@string/colorpicker_dialog"
+        app:showAsAction="never" />
+</menu>

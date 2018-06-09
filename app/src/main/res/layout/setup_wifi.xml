@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <TextView
+        android:id="@+id/ipaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ip_address"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/getipaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="e.g. 192.168.0.10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/port_number"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/getport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="e.g. 80"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/setbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set" />
+</LinearLayout>
